@@ -1,0 +1,69 @@
+/*
+    CSS Hoja de estilos
+    Creador: Martín José Morata García
+*/
+
+*{
+    background-color: rgb(155, 94, 212);
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+div{
+text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    display: inline-block;
+    background-color: white ;
+    border: 5px dotted black;
+    border-radius: 50%;
+    width: 70%
+    
+
+}
+
+h2{
+
+    color: white;
+}
+
+
+h3{
+    color: white;
+    margin: 30px auto 10px auto;
+}
+
+p{
+    color: white;
+}
+
+
+
+
+
+ol{
+    text-align: center;
+    display: inline-block;
+    margin: 30px auto 10px auto;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:10px;
+    margin: 25px 50px 25px 50px;
+   
+}
+
+
+div2{
+    color: red;
+}

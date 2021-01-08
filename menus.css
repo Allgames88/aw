@@ -1,0 +1,81 @@
+/*
+    Hoja de estilos de martin jose morata garcía
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 800px;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.mflotante{
+    width: 80%;
+    margin: auto;
+}
+
+
+.mflotante>a{
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    float: right;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+@media (max-width: 700px){
+    .mflotante a{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+    }
+    .mflex{
+        flex-direction: column;
+    }
+    .mgrid{
+        grid-auto-flow: row;
+    }
+}
+
+.mflex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.mflex a{
+    background-color: rgb(162, 106, 214);
+    color: white;
+    padding: 0.5em 0;
+    text-decoration: none;
+    /*flex: extender, reducir, tamaño*/
+    flex: 1 0 auto;
+    text-align: center;
+    
+}
+
+
+.mgrid{
+    display: grid;
+    grid-auto-flow: column;
+    width: 80%;
+    margin: auto;
+
+}
+
+.mgrid a{
+    background-color: rgb(132, 175, 255);
+    color: white;
+    text-decoration: none;
+    padding: 0 0.5em 0;
+    text-align: center;
+}
