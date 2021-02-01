@@ -1,0 +1,63 @@
+/*
+    Tablas CSS
+    Por Martin Jose Morata Garcia
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+table{
+    border-collapse: collapse;
+}
+#sep{
+    height: 20px;
+    width: 100%;
+}
+#sup .dazul2{
+    background-color: rgb(51, 102, 131);
+    
+}
+#sup{
+    width: 50%;
+}
+#baj{
+    margin-left: 140px;
+}
+
+.azul{
+    background-color: rgb(85, 159, 202);
+    border: black 1px solid;
+}
+.dazul{
+    background-color: rgb(51, 102, 131);
+    border: black 1px solid;
+}
+.lazul{
+    background-color: rgb(165, 220, 252);
+    border: black 1px solid;
+}
+.lazul2{
+    background-color: rgb(165, 220, 252);
+}
+
+.rojo{
+    background-color: rgb(255, 0, 0);
+    border: black 1px solid;
+}
+.verde{
+    background-color: rgb(0, 255, 34);
+    border: black 1px solid;
+}
+.rosa{
+    background-color: rgb(255, 0, 255);
+    border: black 1px solid;
+}
+.amar{
+    background-color: rgb(251, 255, 0);
+    border: black 1px solid;
+}
+h6{
+    float: right;
+    margin-top: 380px;
+}

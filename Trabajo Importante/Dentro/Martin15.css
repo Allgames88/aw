@@ -1,0 +1,14 @@
+/*
+
+    Hoja de estilos de martin
+    Por cascada morata garcia
+
+*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+img{
+    margin: 30px 30px 30px 30px;
+    width: 300px;
+}

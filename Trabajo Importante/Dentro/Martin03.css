@@ -1,0 +1,62 @@
+/*
+    Hoja de marcas de noseque
+    Martín José Morata García
+    
+*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#Der{
+    float: right;
+    width: 70%;
+    color: rgb(75, 75, 75);
+    background-color: orange;
+    height: 60%;
+    display: block;
+    
+}
+#Iz{
+    float: left;
+    width: 30%;
+    color: rgb(75, 75, 75);
+    background-color: white;
+    height: 100%;
+    display: block;
+    clear: both;
+    padding: 10PX;
+}
+#up{
+    float: top;
+    color: white;
+    background-color: black;
+}
+#down{
+    float: bottom;
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+    color: white;
+    background-color: black;
+    float: inline-end;
+    text-align: center;
+}
+img{
+    float: initial;
+    width: 100%;
+    padding: 0%;
+}
+footer{
+    clear: both;
+    padding-top: 90%;
+    display: block;
+}
+header h3{
+    color: gray;
+}
+body{
+    display: block;
+    background-color: orange;
+}
+

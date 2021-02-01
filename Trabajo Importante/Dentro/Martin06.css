@@ -1,0 +1,68 @@
+/*
+    Hoja de marcas de nosque
+    Por Martín José Morata Garcia
+*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: rgb(54, 95, 63);
+}
+#center{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+    width: 50%;
+}
+#space{
+    height: 10px;
+}
+
+#left{
+    margin-right: 50%;
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+    
+}
+
+#right{
+    margin-left: 50%;
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+    
+}
+
+.white{
+    border: solid black 10px;
+    background-color: white;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.brown{
+    border: solid brown 15px;
+    background-color: rgb(165, 97, 42);
+    border-radius: 10% 0% 0% 10%;
+    color: white;
+}
+
+.yellow{
+    border: solid rgb(165, 116, 42) 10px;
+    background-color: rgb(172, 151, 84);
+    border-radius: 0% 10% 10% 0%;
+    color: white;
+}
+
+.Blue{
+    border: dashed rgb(42, 95, 165) 5px;
+    background-color: rgb(33, 35, 153);
+    
+    color: white;
+}
+
+h4{
+    font-size: 30px;
+    color: white;
+    text-shadow:0.2em 0.2em black ;
+    
+}

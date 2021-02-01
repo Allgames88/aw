@@ -1,0 +1,48 @@
+/*
+
+    Tablas de CSS
+    Por MArtin Jose Morata Garcia
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: rgb(189, 185, 165);
+}
+
+h1{
+    color: rgb(34, 14, 121);
+    font-weight: 900;
+    letter-spacing: 50px;
+    text-align: right;
+}
+h2{
+    clear: both;
+    background-color: rgb(80, 88, 66);
+    color: white;
+    width: 81%;
+    float: right;
+}
+.prim{
+    width: 80%;
+    float: right;
+}
+.med{
+    width: 100%;
+}
+.ar{
+    width: 100%;
+}
+.centrado {
+    text-align: center;
+  }
+  
+.izq {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  strong {
+    font-style: oblique;
+  }

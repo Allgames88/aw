@@ -1,0 +1,37 @@
+/*
+        Echo por: Martín José Morata García.
+*/
+
+
+
+ol ol{
+    list-style-type: upper-alpha;
+}
+
+#lower{
+    list-style-type: lower-alpha;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+hr{
+    color: blue;
+}
+#lb{
+    color: blue;
+}
+ul{
+    list-style-type: none;
+}
+ul ul{
+    list-style-type: disc;
+}
+
+#wh{
+    list-style-type: circle;
+}
+
+#sq{
+    list-style-type: square;
+}

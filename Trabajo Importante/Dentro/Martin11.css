@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    
+}
+body{
+    background-color: rgb(109, 211, 185);
+}
+h5{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    color: rgb(32, 112, 112);
+}
+#uno{
+    width: 100%;
+    text-align: center;
+}
+
+#doble1{
+    border: solid orange 20px;
+    
+    background-color: white;
+    
+}
+#doble1 p{
+    background-color: white;
+    margin-left: 50%;
+   
+}
+#doble1 h4{
+    background-color: white;
+    margin-left: 50%;
+    
+}
+.boi1{
+    border: solid rgb(255, 81, 0) 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#doble2{
+    border: solid orangered 20px;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+#doble2 p{
+    background-color: white;
+    margin-left: 50%;
+   
+}
+#doble2 h4{
+    background-color: white;
+    margin-left: 50%;
+    
+}
+.borde2{
+    border: solid orange 10px;
+    width: 42%;
+    height: 220px;
+}
+#doble2 img{
+    border-image: 10px solid orangeres;
+}
+
+#doble3{
+    border: solid orange 20px;
+    
+    background-color: white;
+    
+}
+#doble3 p{
+    background-color: white;
+    margin-left: 50%;
+   
+}
+#doble3 h4{
+    background-color: white;
+    margin-left: 50%;
+    
+}
+.boi3{
+    border: solid rgb(255, 81, 0) 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#doble4{
+    border: solid orangered 20px;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+#doble4 p{
+    background-color: white;
+    margin-left: 50%;
+   
+}
+#doble4 h4{
+    background-color: white;
+    margin-left: 50%;
+    
+}
+
+#doble4 img{
+    border-image: 10px solid orangeres;
+}
+.borde4{
+    border: solid orange 10px;
+    width: 45%;
+    height: 220px;
+}
