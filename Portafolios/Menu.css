@@ -1,0 +1,178 @@
+/*
+
+    Hoja de estilos en cascada CSS.
+    Por Martín José Morata García.
+
+*/
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: lightblue;
+}
+header{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+header a{
+    width: 15%;
+    text-decoration: none;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.separation{
+    height: 20px;
+}
+.perfil{
+    position: relative;
+    width: 40%;
+    background-color: white;
+    border: dashed black 3px;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    animation-duration: 3s;
+}
+.perfil{
+    animation-duration: 0.6s;
+    animation-name: ShowFromRight;
+    overflow: hidden;
+}
+.prfl{
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -30px;
+    width: 20%;
+    animation-duration: 0.7s;
+    animation-name: Boi;
+    overflow: hidden;
+}
+@keyframes ShowFromRight{
+    from{
+        margin-left: 100%;
+        
+    }
+    80%{
+        margin-top: 10%;
+        margin-left: 38%;
+    }
+    to{
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+}
+@keyframes Boi{
+    from{
+        margin-left: 100%;
+        
+    }
+    80%{
+        
+        margin-left: 49%;
+    }
+    to{
+        
+        margin-left: 58%;
+    }
+}
+.perfil button{
+    text-align: center;
+    margin-left: 45%;
+    overflow: hidden;
+}
+h2{
+    overflow: hidden;
+}
+.perfil a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    border: solid black 1px;
+    background-color: yellow;
+    overflow: hidden;
+}
+.separation{
+    height: 20px;
+}
+
+.region{
+    height: 50%;
+    width: 98%;
+    background-color: darkblue;
+    opacity: 0.8;
+    color: white;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.region h1{
+    color: yellow;
+    margin-left: 60%;
+}
+.region a{
+    border: black solid 4px;
+    background-color: darkgray;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 20px;
+}
+.RG{
+    width: 50%;
+    margin-left: 50%;
+    font-size: 200%;
+}
+.mixto{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.mixto img{
+    width: 40%;
+    border: solid black 5px;
+    z-index: 2;
+}
+.cruzado{
+    width: 40%;
+    border: solid yellow 5px;
+    z-index: -1;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -10%;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+}
+.cruzado p{
+    width: 70%;
+    margin-left: 30%;
+    padding-top: 10%;
+    margin-bottom: 10%;
+}
+.cruzado a{
+    margin-left: 60%;
+    border: solid black 3px;
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+}
+.separation2{
+    height: 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+}

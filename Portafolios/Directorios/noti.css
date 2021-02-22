@@ -1,0 +1,111 @@
+/*
+
+    Hoja de estilos en cascada de Martín José Morata García.
+    CSS.
+
+*/
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-image: url(../Images/peri.jpg);
+    background-attachment: fixed;
+}
+header{
+    background-color: crimson;
+    border-bottom: yellow solid 5px;
+}
+header h1{
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+}
+.noticia1{
+    width: 80%;
+    background-color: black;
+    border: dashed white 4px;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+    height: auto;
+}
+.noticia1 img{
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    
+}
+.noticia1 p{
+    width: 70%;
+    margin-left: 30%;
+    margin-top: -200px;
+    margin-bottom: 10%;
+}
+.noticia2{
+    width: 80%;
+    background-color: black;
+    border: dashed white 4px;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+.noticia2 img{
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+.noticia2 p{
+    width: 70%;
+    margin-left: 30%;
+    margin-top: -200px;
+    margin-bottom: 10%;
+}
+.noticia3{
+    width: 80%;
+    background-color: black;
+    border: dashed white 4px;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+.noticia3 img{
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+.noticia3 p{
+    width: 70%;
+    margin-left: 30%;
+    margin-top: -200px;
+    margin-bottom: 10%;
+}
+.red{
+    color: red;
+}
+.rayita{
+    text-decoration: underline;
+}
+.coral{
+    color: coral;
+}
+.Lb{
+    color: lightblue;
+}
+.Green{
+    color: green;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}

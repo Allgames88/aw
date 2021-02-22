@@ -1,0 +1,146 @@
+/*
+
+    Hoja de estilos en cascada de Allg... Digo...
+    Echo por Martin Jose Morata Garcia
+
+*/
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../Images/Fondo\ Libreria.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 1950px;
+}
+.Stats{
+    width: 685px;
+    background-image: url(../Images/Fondo\ papel\ quemado.jpg);
+    background-color: #cccccc;
+    background-size: 685px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.US{
+    
+    width: 20rem;
+    height: 30rem;
+}
+.input{
+    margin-top:40%;
+    margin-left: 10px;
+    left: 40%;
+}
+.Back{
+    margin-top: 100%;
+    margin-left: 20px;
+    background-color: lightgray;
+    text-decoration: none;
+    border: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#UNS{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.name{
+    height: 30px;
+    width: 320px;
+}
+.region{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 30px;
+    width: 150px;
+    text-align: center;
+}
+#region{
+    width: 100%;
+}
+.anon{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+.gender{
+    margin-top: 30px;
+    text-align: center;
+}
+.desc{
+    margin-top: 100px;
+    margin-left: -250px;
+    width: 100%;
+}
+.extras{
+    height: 120px;
+    margin-top: 300px;
+    margin-left: 320px;
+    width: 300px;
+    position: absolute;
+}
+
+@media(max-width: 500px){
+    .Stats{
+        width: 500px;
+        height: 1000px;
+        background-image: url(../Images/Fondo\ papel\ quemado.jpg);
+        background-color: #cccccc;
+        background-size: 685px;
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .Back{
+        width: 20%;
+        margin-left: 50%;
+        margin-bottom: 20px;
+    }
+    .US{
+        width: 99%;
+        padding-left:18%;
+    }
+    body{
+        background-size: 3000px;
+    }
+    .Gname{
+        
+        height: 40px;
+        margin-top: 72%;
+        margin-left: 90px;
+        position: absolute;
+    }
+    .gender{
+        height: 80px;
+        margin-top: 72%;
+        margin-left: 290px;
+        position: absolute;
+    }
+    .region{
+        height: 80px;
+        margin-top: 92%;
+        margin-left: 70px;
+        width: 80%;
+    }
+    .extras{
+        height: 80px;
+        text-align: center;
+        margin-left: -65%;
+        margin-top: 145%;
+    }
+    .desc{
+        height: 110px;
+        width: 90%;
+        margin-top: 110%;
+        margin-left: -450px;
+    }
+    .US h3{
+        text-align:center;
+    }
+}
